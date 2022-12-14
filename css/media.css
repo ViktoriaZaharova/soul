@@ -258,7 +258,6 @@
   .result-seminar .title-decor {
     text-align: left;
     margin: 0 0 68px;
-    color: #fff;
   }
   .result-seminar .title-decor::before {
     display: none;
@@ -315,7 +314,7 @@
   .contacts-block::after {
     content: "";
     position: absolute;
-    left: 0;
+    left: -15px;
     bottom: -240px;
     width: 12px;
     height: 481px;
@@ -365,5 +364,235 @@
     line-height: normal;
     line-height: 1.83;
     letter-spacing: 0.2px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .author-description ul {
+    max-width: 450px;
+  }
+  .contacts-block {
+    padding: 85px 70px 106px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .title-decor:after {
+    width: 3px;
+    height: 65px;
+    top: -114px;
+  }
+  header {
+    padding: 20px 0;
+  }
+  .logo {
+    max-width: 221px;
+  }
+  .btn {
+    height: 48px;
+    padding: 0 40px;
+    font-size: 16px;
+  }
+  .home {
+    padding: 130px 0 113px;
+  }
+  .home::before {
+    width: 8px;
+    height: 300px;
+    bottom: -230px;
+  }
+  .home:after {
+    width: 4px;
+    height: 65px;
+    bottom: -32.5px;
+  }
+  h1 {
+    font-size: 42.5px;
+    margin: 28px 0 16px;
+  }
+  .author-name {
+    font-size: 38px;
+  }
+  .author-name::before {
+    width: 6px;
+    height: 23px;
+  }
+  .author-name span {
+    font-size: 31.5px;
+  }
+  .slogan {
+    font-size: 23.5px;
+    max-width: 330px;
+  }
+  .date {
+    margin: 44px 0 43px;
+    font-size: 25px;
+  }
+  .why {
+    margin: 54px 0 82px;
+  }
+  .why h2 {
+    margin: 0 auto 37px;
+  }
+  .why blockquote {
+    margin: 0 auto 47px;
+  }
+  h2, .h2 {
+    font-size: 20px;
+    line-height: 0.95;
+    letter-spacing: -0.5px;
+    margin: 0 0 35px;
+  }
+  blockquote {
+    font-size: 19px;
+    line-height: 1;
+  }
+  body {
+    font-size: 20px;
+  }
+  .list-why li {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 0 13px;
+  }
+  .list-why li:last-child {
+    margin: 0;
+  }
+  .list-why__icon {
+    margin: 0 21px 0 0;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+  }
+  .about-author-section {
+    padding: 64px 0 0;
+  }
+  .about-author__image {
+    margin: 83px 0 -86px;
+    padding: 0 0 0 15px;
+  }
+  .author-photo {
+    max-width: 344px;
+    height: 359px;
+    margin: 0 0 -113px 36px;
+  }
+  .author-photo::before {
+    width: 3px;
+    height: 113px;
+    left: 3px;
+    bottom: -90px;
+  }
+  .author-description {
+    padding: 139px 20px 42px 57px;
+    min-width: auto;
+    position: relative;
+    width: calc(100% + 15px);
+  }
+  .author-description ul {
+    max-width: 360px;
+    font-size: 19.5px;
+  }
+  .about-author__content {
+    padding: 0 15px;
+  }
+  .theme-seminar {
+    padding: 158px 0 88px;
+  }
+  .theme-seminar h2 {
+    margin: 0 auto 42px;
+  }
+  .theme-seminar-box {
+    margin: 0 0 20px;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .theme-seminar-box__icon {
+    width: 39px;
+    height: 39px;
+    min-width: 39px;
+    margin: 0 7px 0 0;
+  }
+  .theme-seminar-box__text {
+    max-width: 340px;
+  }
+  .description-content {
+    margin: 34px 0 0;
+    font-size: 19.5px;
+  }
+  .description-content p {
+    margin: 0 0 30px;
+  }
+  .description-content p:last-child {
+    margin: 0;
+  }
+  .result-seminar {
+    padding: 64px 0 117px;
+  }
+  .result-seminar .title-decor {
+    margin: 0 0 40px;
+  }
+  .result-seminar .title-decor:after {
+    top: -114px;
+  }
+  .result-seminar__description {
+    margin: 78px 0 0;
+    font-size: 19.5px;
+    font-weight: normal;
+    line-height: 1.18;
+    letter-spacing: 0.2px;
+  }
+  .result-seminar-box {
+    margin: 0 0 15px;
+  }
+  .result-seminar-box__number {
+    margin: 0 11px 0 0;
+    font-size: 40px;
+    line-height: 1.28;
+    letter-spacing: -2px;
+    min-width: 53px;
+  }
+  .result-seminar-box__text {
+    max-width: 350px;
+  }
+  .contacts-block {
+    padding: 58px 50px 70px;
+    font-size: 20px;
+  }
+  .contacts-block::after {
+    left: -15px;
+    width: 8px;
+    bottom: -150px;
+    height: 301px;
+  }
+  .contacts-block .h2 {
+    margin: 0 auto 49px;
+  }
+  .contacts-block h3 {
+    font-size: 20px;
+  }
+  .address, .list-social {
+    margin: 25px 0 0;
+  }
+  .price {
+    font-size: 20px;
+    line-height: 1.13;
+  }
+  .list-social li {
+    margin: 0 12px 0 0;
+  }
+  .list-social li a {
+    width: 40px;
+    height: 40px;
+  }
+  .callback-box {
+    padding: 54px 0 0;
+    min-height: 600px;
+  }
+  footer {
+    padding: 22px 0;
+    font-size: 12.5px;
+    line-height: 1.84;
+    letter-spacing: 0.13px;
   }
 }
