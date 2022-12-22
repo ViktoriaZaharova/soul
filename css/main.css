@@ -358,6 +358,7 @@ blockquote {
 .result-seminar__description strong {
   color: #333;
   line-height: 1.41;
+  display: inline;
 }
 
 .result-seminar-box {
